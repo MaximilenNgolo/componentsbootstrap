@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+
+
+
+
+h1{
+    letter-spacing: 10px;
+    font-size: 4rem;
+}
+
+
+
+
+header{
+    background:linear-gradient(transparent,black), url(./media/header.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+ nav{
+        z-index: 999;
+    }
+
+ul{
+    list-style-type: none;
+}
+
+
+.footer-custom{
+    height: 300px;
+}
+
+@media screen and (max-width:670px) {
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .list-footer{
+        justify-content: start !important;
+    }
+   
+    
+}
