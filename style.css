@@ -35,6 +35,23 @@ ul{
     height: 300px;
 }
 
+
+.carousel{
+    width: 30%;
+}
+
+.accordion{
+    width: 30%;
+}
+
+.accordion-button{
+    background-color: var(--acc);
+}
+
+.accordion-button:focus, .accordion-body{
+    background-color: var(--main);
+}
+
 @media screen and (max-width:670px) {
 
     h1{
@@ -43,6 +60,10 @@ ul{
 
     .list-footer{
         justify-content: start !important;
+    }
+
+    .carousel, .accordion{
+        width: 90px;
     }
    
     
